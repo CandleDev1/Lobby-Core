@@ -1,0 +1,6 @@
+name: LobbyCore
+author: candle #qzotx
+main: candle\LobbyCore
+website: candledev.nl
+api: 5.0.0
+version: 0.0.1

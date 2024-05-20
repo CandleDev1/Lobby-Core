@@ -1,0 +1,61 @@
+#Server Messages.
+message:
+  prefix: "§a§l[LobbyCore] §r§7>> §f"
+  join: "§a{player} §7joined the server"
+  quit: "§c{player} §7left the server"
+  server_information: "§l§eServer Information\n§r§eDiscord: §6discord.gg/servername\n§ewebsite: §6candledev.nl\n§evote: §6vote.server.com"
+  pvp_join: "You have joined PvP"
+  pvp_leave: "You left PvP"
+  combat_tagged: "You have been combat tagged!"
+  combat: "You are in combat wait till your out of combat!"
+  combatmode_enabled: "You entered combat mode!"
+  combatmode_disabled: "You disabled combat mode!"
+
+
+#DO NOT CHANGE THE COMPASS,ENDER_PEARL ETC. THOSE ARE THE ITEMS IN YOUR HOTBAR U CAN CHANGE
+#AFTER THE : EXAMPLE I WANNE CHANGE COMPASS NAME I CHANGE THE PART OF "§eServer selector §7(right click)"
+items:
+  compass: "§eServer selector §7(right click)"
+  ender_pearl: "§eRocket §7(right click)"
+  diamond_sword: "§cPvP §7(right click)"
+  enchanted_book: "§eServer Information §7(right click)"
+  dye: "§aLeave PvP"
+
+
+#Keep in mind PvPWorld has to be a different world then the LobbyWorld
+worldSystem:
+  LobbyWorld:
+    x: 123
+    y: 123
+    z: 123
+    worldName: "world" #<- world name
+  PvPWorld:
+    x: 123
+    y: 123
+    z: 123
+    worldName: "world" #<- world name
+
+
+ServerForm:
+  title: "Server Selector"
+  buttons: ["Practice NA", "Practice EU", "Practice AS"]
+  button1:
+    ip: "server.ip.here"
+    port: 19132
+  button2:
+    ip: "server.ip.here"
+    port: 19132
+  button3:
+    ip: "server.ip.here"
+    port: 19132
+
+
+Scoreboard:
+  title: "§e§lServer Network"
+  line_1: "§l§e| §r§fname: {player}"
+  line_2: "§l§e| §r§fOnline: {count}"
+  line_3: "§l§e| §r§fPvPing: {pvp}"
+  line_4: "{ip}"
+  line_5: "{website}"
+  Website: "§l§e| §r§fcandledev.nl"
+  Server_IP: "§l§e| §r§fcandle.dev"
